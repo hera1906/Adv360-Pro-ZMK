@@ -2,7 +2,37 @@ macro_dk_lcae: macro_dk_lcae{
 compatible = "zmk,behavior-macro";
 label = "macro_dk_lcae";
 #binding-cells = <0>;
+bindings = <&kt LALT>, <&kp KP_NUMBER_0>, <&kp KP_NUMBER_2>, <&kp KP_NUMBER_3>, <&kp KP_NUMBER_0>, <&kt LALT>;
+};
+macro_dk_lcoe: macro_dk_lcoe{
+compatible = "zmk,behavior-macro";
+label = "macro_dk_lcoe";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp KP_NUMBER_0>, <&kp KP_NUMBER_2>, <&kp KP_NUMBER_4>, <&kp KP_NUMBER_8>, <&kt LALT>;
+};
+macro_dk_lcaa: macro_dk_lcaa{
+compatible = "zmk,behavior-macro";
+label = "macro_dk_lcaa";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp KP_NUMBER_0>, <&kp KP_NUMBER_2>, <&kp KP_NUMBER_2>, <&kp KP_NUMBER_9>, <&kt LALT>;
+};
+macro_dk_ucae: macro_dk_ucae{
+compatible = "zmk,behavior-macro";
+label = "macro_dk_ucae";
+#binding-cells = <0>;
 bindings = <&kt LALT>, <&kp KP_NUMBER_0>, <&kp KP_NUMBER_1>, <&kp KP_NUMBER_9>, <&kp KP_NUMBER_8>, <&kt LALT>;
+};
+macro_dk_ucoe: macro_dk_ucoe{
+compatible = "zmk,behavior-macro";
+label = "macro_dk_ucoe";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp KP_NUMBER_0>, <&kp KP_NUMBER_2>, <&kp KP_NUMBER_1>, <&kp KP_NUMBER_6>, <&kt LALT>;
+};
+macro_dk_ucaa: macro_dk_ucaa{
+compatible = "zmk,behavior-macro";
+label = "macro_dk_ucaa";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp KP_NUMBER_0>, <&kp KP_NUMBER_1>, <&kp KP_NUMBER_9>, <&kp KP_NUMBER_7>, <&kt LALT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
